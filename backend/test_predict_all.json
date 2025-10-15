@@ -1,0 +1,11 @@
+{
+  "Age": 45,
+  "Gender": "Male",
+  "BMI": 27,
+  "Blood_Pressure_Systolic": 130,
+  "Blood_Pressure_Diastolic": 85,
+  "Cholesterol": 210,
+  "Blood_Sugar": 105,
+  "Heart_Rate": 75,
+  "Exercise_Hours_Per_Week": 2
+}

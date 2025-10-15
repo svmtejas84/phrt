@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <!--
+  How to Use It
+  Open your project's main HTML file.
+  Paste the entire prompt as a comment at the very top.
+  Follow Copilot's lead:
+  It will first suggest the <script> tag addition in your HTML file. Accept it.
+  Then, open the JavaScript file that your HTML page uses. Copilot will now suggest the window.addEventListener(...) block of code. Accept it.
+  Clean Up: Once the animation is working, you can delete the large prompt comment from your HTML file.
+  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OneCare - Smart Healthcare AI Platform</title>
+    <meta name="description" content="OneCare - Smart, Predictive, and Human-Centered Healthcare. AI-powered disease risk analysis and patient management." />
+    <meta name="author" content="OneCare Healthcare" />
+
+    <meta property="og:title" content="OneCare - Smart Healthcare AI Platform" />
+    <meta property="og:description" content="Smart, Predictive, and Human-Centered Healthcare with AI-powered disease risk analysis." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
+
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/cursor-effects@latest/dist/cursor-effects.min.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', function () {
+        if (typeof window.CursorEffects === 'function') {
+          new window.CursorEffects({
+            shape: 'star', // Try 'star', 'circle', 'heart', etc.
+            color: '#00bcd4',
+            size: 24,
+            amount: 16,
+            fade: 0.7,
+          });
+        }
+      });
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  <body>
+    <div id="root"></div>
+    <script src="https://cdn.jsdelivr.net/npm/cursor-effects@latest/dist/cursor-effects.min.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', function () {
+        if (typeof window.CursorEffects === 'function') {
+          new window.CursorEffects({
+            shape: 'star',
+            color: '#00bcd4',
+            size: 24,
+            amount: 16,
+            fade: 0.7,
+          });
+        }
+      });
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>

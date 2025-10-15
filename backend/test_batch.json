@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "Age": 46,
+      "Gender": "Male",
+      "Smoking": 0,
+      "GeneticRisk": 1,
+      "PhysicalActivity": 5.2,
+      "AlcoholIntake": 3.1,
+      "CancerHistory": 0,
+      "Diagnosis": 1
+    }
+  ]
+}
